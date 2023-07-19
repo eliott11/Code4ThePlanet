@@ -1,1 +1,1 @@
-<template></template>
+<template><button class="rounded-full text-white bg-violet-700 px-5 mt-2"><slot/></button></template>
