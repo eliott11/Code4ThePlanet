@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@vueuse/nuxt',
+    'nuxt-icon',
   ],
   css: ['~/assets/css/main.css'],
   postcss: {
