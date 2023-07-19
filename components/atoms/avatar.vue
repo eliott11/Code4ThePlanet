@@ -1,14 +1,9 @@
-<template>
-  <Avatar />
-</template>
-
-<script>
+<script setup lang="ts">
 import Avatar from "vue-boring-avatars";
-
-export default {
-  name: "AvatarComponent",
-  components: {
-    Avatar,
-  },
-};
 </script>
+
+<template>
+  <Avatar
+      :size="230"
+  />
+</template>
