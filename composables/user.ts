@@ -60,8 +60,8 @@ export const useUser = () => {
     },
     {
       id: 211797,
-      name: 'Pablo Dacosta',
-      email: 'pablo.dacosta@edu.devinci.fr',
+      name: 'Pablo Jackson',
+      email: 'pablo.jackson@edu.devinci.fr',
       role: 'Ux Designer',
       workplace: 'Inetum',
       interests: ['Cybersécurité', 'Analyse de données', 'Blockchain'],
@@ -93,8 +93,8 @@ export const useUser = () => {
     },
     {
       id: 237221,
-      name: 'Edouard Donnais',
-      email: 'edouard.donnais@edu.devinci.fr',
+      name: 'Edouard Chirac',
+      email: 'edouard.chirac@edu.devinci.fr',
       role: 'Ux Designer',
       workplace: 'Air France',
       interests: ['Intelligence artificielle', 'Product Management', 'Blockchain'],
