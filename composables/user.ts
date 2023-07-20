@@ -71,7 +71,7 @@ export const useUser = () => {
     },
     {
       id: 237497,
-      name: 'Pablo Dacosta',
+      name: 'Pablo Da Costa',
       email: 'pablo.dacosta@edu.devinci.fr',
       role: 'Ux Designer',
       workplace: 'SNCF',
