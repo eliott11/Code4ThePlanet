@@ -11,20 +11,22 @@ export const useMentors = () => {
 
   const { me, users } = useUser()
 
-  const getSuggestedMentors = () => {
+  const getSuggestedMentors = (count: number = 3) => {
+    if (me.value === null) return []
     const authenticatedInterests = new Set(me.value.interests);
     const commonInterestsUsers = [];
-  
+
     for (const user of users) {
-      if (user.id !== me.value.id && user.mentor) {
+      if (me.value && user.id !== me.value.id && user.alumni && user.mentor) {
         const commonInterests = new Set(user.interests.filter(interest => authenticatedInterests.has(interest)));
-        if (commonInterests.size >= 2) {
+        if (commonInterests.size >= 1) {
           commonInterestsUsers.push(user);
         }
       }
     }
 
-    return shuffleArray(commonInterestsUsers); 
+    shuffleArray(commonInterestsUsers);
+    return commonInterestsUsers.slice(0, count);
   }
 
   return {
