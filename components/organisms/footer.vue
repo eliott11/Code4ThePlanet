@@ -1,27 +1,26 @@
 <template>
-  <div class="w-full bg-zinc-300 flex justify-between">
-    <div class="m-5">
-      <h2 class="font-bold">CONTACT</h2>
-      <p>Réseau alumni du Pôle Léonard de Vinci</p>
-      <p>10 Av. Léonard de Vinci 92600 COURBEVOIE</p>
-      <div class="flex">
-        <Icon name="ph-envelope-simple" class="m-1" />
-        <p>lumni@devinci.fr</p>
+  <footer class=" flex justify-center w-full bg-zinc-50 border-t">
+    <div class="w-full flex justify-between max-w-6xl">
+      <div class="my-10">
+        <h2 class="font-bold">CONTACT</h2>
+        <p>Réseau alumni du Pôle Léonard de Vinci</p>
+        <p>10 Av. Léonard de Vinci 92600 COURBEVOIE</p>
+        <div class="flex items-center">
+          <Icon name="ph-envelope-simple" class="m-1" size="18" />
+          <p>alumni@devinci.fr</p>
+        </div>
+      </div>
+      <div class="flex flex-col my-10">
+        <div class="font-bold">
+          SUIVEZ-NOUS
+        </div>
+        <div class="mt-2">
+          <Icon name="ph-facebook-logo"  size="28" />
+          <Icon name="ph-linkedin-logo"  size="28" />
+          <Icon name="ph-instagram-logo"  size="28" />
+        </div>
       </div>
     </div>
-    <div class="flex flex-col m-5">
-      <div>
-        SUIVEZ-NOUS
-      </div>
-      <div>
-        <Icon name="ph-facebook-logo" />
-        <Icon name="ph-linkedin-logo" />
-        <Icon name="ph-instagram-logo" />
-      </div>
-    </div>
-    <div>
-
-    </div>
-  </div>
+  </footer>
 
 </template>
