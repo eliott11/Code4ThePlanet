@@ -17,7 +17,7 @@ console.log(mentors)
           <h3 class="mt-2 text-base font-semibold leading-7 tracking-tight text-gray-900">{{ person.name }}</h3>
           <p class="text-sm leading-6 text-gray-600">{{ person.role }}</p>
           <p class="text-sm leading-6 text-gray-600">chez {{ person.workplace }}</p>
-          <AtomsButton>Contact l'Alumni</AtomsButton>
+          <AtomsButton class="mt-2">Contact l'Alumni</AtomsButton>
         </li>
       </ul>
     </div>

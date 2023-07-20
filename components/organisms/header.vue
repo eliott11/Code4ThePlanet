@@ -8,10 +8,11 @@ const props = defineProps<{
   role: string;
   workplace: string;
   mentor: boolean;
+  alumni: boolean;
 }>()
 
 const isStudent = computed(() => {
-  return props.mentor ? 'Mentor' : 'Etudiant'
+  return props.alumni ? 'Alumni' : 'Etudiant'
 })
 </script>
 
@@ -34,7 +35,7 @@ const isStudent = computed(() => {
       </div>
       <div class="flex flex-col items-end gap-2 mt-10">
         <p class="font-bold">{{ isStudent }}</p>
-        <Icon name="ph:linkedin-logo-bold" />
+        <Icon name="ph:linkedin-logo-bold" size="24" />
       </div>
     </div>
   </div>
