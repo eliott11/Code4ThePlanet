@@ -33,7 +33,7 @@ const doesUserExist = computed(() => {
     />
     <div class="min-h-[500px] max-w-6xl mx-auto my-10 grid grid-cols-3 grid-rows-6 gap-4">
       <MoleculesSection title="Résumé" class="col-span-2 row-span-2">
-        Aucun résumé pour le moment.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus enim sed dolor egestas tempus. Cras tellus risus, luctus ac metus id, eleifend luctus nisi. Etiam vehicula erat nulla, vel feugiat lorem feugiat sed. Morbi lobortis, diam quis vulputate convallis, lacus mi dapibus nibh, vel scelerisque quam felis sodales nunc. Nullam quis nibh at mi iaculis volutpat sed quis justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras consequat, urna vel ultrices suscipit, tellus elit fringilla metus, et ullamcorper magna mi id erat.
       </MoleculesSection>
       <MoleculesSection title="Mentorat" v-if="me && isUserMe && me.alumni" class="row-span-2">
         <p class="mb-4">Voulez vous participer au programme de mentorat ?</p>
